@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "+";
+var prefix = "MA";
 client.on('ready', () => {
    console.log(`----------------`);
       console.log(`Cyhper Bot Script By : DREAM`);
@@ -8,7 +8,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`TEXT`,"http://twitch.tv/Dream")
+client.user.setGame(`TEXT`,"http://twitch.tv/alSayed")
 client.user.setStatus("dnd")
 });
 
